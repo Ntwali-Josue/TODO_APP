@@ -1,18 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TODO APP
 
-> One paragraph statement about the project.
+> TODO App is an app which helps a user to manage his/her tasks by adding, editing, and deleting them.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JAVASCRIPT, HTML, CSS
+- LINTERS, WEBPACK
 
 ## Live Demo
 
