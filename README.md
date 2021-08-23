@@ -14,7 +14,7 @@ This simple web page is built using webpack and served by a webpack dev server.
 
 ## Live Demo
 
-[Live Demo Link](https://ntwali-josue.github.io/TODO_APP/dist/)
+[Live Demo Link](https://ntwali-josue.github.io/TODO_APP/)
 
 ## Author
 
