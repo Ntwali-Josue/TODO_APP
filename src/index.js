@@ -6,10 +6,10 @@ let todo = JSON.parse(localStorage.getItem("todo")) || [];
 
 const displayList = () => {
   todo.forEach((item, index) => {
-    const isCom = item.completed ? "checked" : "";
+    const isCompleted = item.completed ? "checked" : "";
     const check = item.completed ? "check" : "";
     item.index = index; 
-    todoList.innerHTML += `<li class="list-group-item task" id="${item.index}"><input type="checkbox" class="checkbox" ${isCom}>
+    todoList.innerHTML += `<li class="list-group-item task" id="${item.index}"><input type="checkbox" class="checkbox" ${isCompleted}>
     <input type="text" class="task-desc ${check}" value='${item.description}'>
     <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
     </li>`;
